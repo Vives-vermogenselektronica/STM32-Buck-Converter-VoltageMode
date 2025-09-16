@@ -1,0 +1,28 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force Unix line endings for source files
+*.c text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+*.hpp text eol=lf
+*.s text eol=lf
+*.ld text eol=lf
+
+# Force Windows line endings for Windows-specific files  
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files should not be normalized
+*.bin binary
+*.elf binary
+*.hex binary
+*.map binary
+
+# Project files can use platform defaults
+*.project text
+*.cproject text
+.gitignore text
+.gitattributes text
+README.md text
+*.md text
