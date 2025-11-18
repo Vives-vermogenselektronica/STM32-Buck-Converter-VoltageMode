@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW-executes"
+		},
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW-executes.rule"
+		},
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-executes.rule"
+		},
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-build.rule"
+		},
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-configure.rule"
+		},
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-patch.rule"
+		},
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-update.rule"
+		},
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-download.rule"
+		},
+		{
+			"file" : "C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Buck_VoltageMode_HW+Buck_VoltageMode_HW"
+		],
+		"name" : "Buck_VoltageMode_HW+Buck_VoltageMode_HW-executes"
+	}
+}

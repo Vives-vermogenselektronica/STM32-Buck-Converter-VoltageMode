@@ -1,0 +1,8 @@
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/database.dir
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW.dir
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW-build.dir
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW-configure.dir
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW-executes.dir
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW-database.dir
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/edit_cache.dir
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/rebuild_cache.dir

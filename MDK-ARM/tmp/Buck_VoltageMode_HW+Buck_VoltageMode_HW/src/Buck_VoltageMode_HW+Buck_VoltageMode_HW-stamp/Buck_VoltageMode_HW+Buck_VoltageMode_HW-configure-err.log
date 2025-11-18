@@ -1,0 +1,14 @@
+CMake Warning in CMakeLists.txt:
+  The object file directory
+
+    C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/1/CMakeFiles/Group_Drivers_STM32G4xx_HAL_Driver.dir/./
+
+  has 191 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    b16e434a13d75146e0afa9e1df283223/stm32g4xx_hal_flash_ramfunc.o
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+

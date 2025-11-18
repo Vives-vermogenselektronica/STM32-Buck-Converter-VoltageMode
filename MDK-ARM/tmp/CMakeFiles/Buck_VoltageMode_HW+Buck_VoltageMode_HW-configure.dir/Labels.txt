@@ -1,0 +1,10 @@
+# Target labels
+ Buck_VoltageMode_HW+Buck_VoltageMode_HW
+# Source files and their labels
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW-configure
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/CMakeFiles/Buck_VoltageMode_HW+Buck_VoltageMode_HW-configure.rule
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-configure.rule
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-patch.rule
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-update.rule
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-download.rule
+C:/Users/u0173601/OneDrive - Hogeschool VIVES/Vermogenselektronica/vermogenselektronica 3/b-g474e-dpow1/STM32-Buck-Repo-Temp/MDK-ARM/tmp/Buck_VoltageMode_HW+Buck_VoltageMode_HW/src/Buck_VoltageMode_HW+Buck_VoltageMode_HW-stamp/Buck_VoltageMode_HW+Buck_VoltageMode_HW-mkdir.rule
