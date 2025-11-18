@@ -286,19 +286,11 @@ int main(void)
   {
     if (bTransient)
     {
-      
-      HAL_GPIO_WritePin(GPIOA, LED_DOWN_BLUE_Pin, GPIO_PIN_SET);
-
-      // Toggle both Loads
       HAL_GPIO_TogglePin(GPIOC, BUCKBOOST_LOAD_1_Pin);
       HAL_GPIO_TogglePin(GPIOC, BUCKBOOST_LOAD_2_Pin);
       HAL_GPIO_TogglePin(GPIOB, LED_RIGHT_GREEN_Pin);
       HAL_GPIO_TogglePin(GPIOB, LED_LEFT_ORANGE_Pin);
-          
-      // Delay
-      HAL_Delay(500);    
-    } else {
-      HAL_GPIO_WritePin(GPIOA, LED_DOWN_BLUE_Pin, GPIO_PIN_RESET);
+      HAL_Delay(500);
     }
     
     /* USER CODE END WHILE */
