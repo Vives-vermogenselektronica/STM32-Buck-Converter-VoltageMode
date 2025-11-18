@@ -1,0 +1,19 @@
+build-idx:
+  generated-by: csolution version 2.12.0
+  csolution: Buck_VoltageMode_HW.csolution.yml
+  cbuild-run: out/Buck_VoltageMode_HW+Buck_VoltageMode_HW.cbuild-run.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: Buck_VoltageMode_HW.cproject.yml
+  cbuilds:
+    - cbuild: out/Buck_VoltageMode_HW/Buck_VoltageMode_HW/Buck_VoltageMode_HW+Buck_VoltageMode_HW.cbuild.yml
+      project: Buck_VoltageMode_HW
+      configuration: +Buck_VoltageMode_HW
+      messages:
+        info:
+          - Buck_VoltageMode_HW.cbuild-pack.yml - file is already up-to-date
+          - Buck_VoltageMode_HW+Buck_VoltageMode_HW.cbuild-run.yml - file is already up-to-date
+          - Buck_VoltageMode_HW+Buck_VoltageMode_HW.cbuild.yml - file is already up-to-date
+      packs-unused:
+        - pack: ARM::CMSIS-DSP@1.16.2
+        - pack: ARM::CMSIS-NN@4.1.0

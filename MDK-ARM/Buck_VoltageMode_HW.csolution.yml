@@ -1,0 +1,14 @@
+solution:
+  created-by: uv2csolution@1.6.0
+  created-for: CMSIS-Toolbox@2.12.0
+  compiler: AC6
+  target-types:
+    - type: Buck_VoltageMode_HW
+      device: STM32G474RETx
+      optimize: debug
+      target-set:
+        - set:
+          images:
+            - project-context: Buck_VoltageMode_HW
+  projects:
+    - project: Buck_VoltageMode_HW.cproject.yml
