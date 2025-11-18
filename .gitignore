@@ -1,0 +1,6 @@
+# Build output directories
+MDK-ARM/out/
+MDK-ARM/tmp/
+
+# Workspace files
+*.wds

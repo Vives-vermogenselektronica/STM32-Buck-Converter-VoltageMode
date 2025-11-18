@@ -22,6 +22,7 @@
 #include "stm32g4xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "ccm_ram.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -244,10 +245,27 @@ void EXTI15_10_IRQHandler(void)
 
 /**
   * @brief This function handles FMAC interrupt.
+  * @note  This function is placed in CCM-SRAM for maximum execution speed
   */
+CCMRAM_FUNCTION
 void FMAC_IRQHandler(void)
 {
   /* USER CODE BEGIN FMAC_IRQn 0 */
+  extern HRTIM_HandleTypeDef hhrtim1;
+  uint32_t tmp;
+
+  /* Set GPO1 to high for timing purposes */
+  LL_GPIO_SetOutputPin(GPO1_GPIO_Port, GPO1_Pin);
+
+  /* Read result from FMAC and perform bounds checking */
+  tmp = READ_REG(hfmac.Instance->RDATA);
+  tmp = (tmp > 0x00007FFF ? 0 : tmp); // Check if unsigned int is less than 0 (Q1.15 format)
+
+  /* Update PWM compare register to update duty cycle */
+  __HAL_HRTIM_SETCOMPARE(&hhrtim1, HRTIM_TIMERINDEX_TIMER_C, HRTIM_COMPAREUNIT_1, tmp);
+
+  /* Set GPO1 to low for timing purposes */
+  LL_GPIO_ResetOutputPin(GPO1_GPIO_Port, GPO1_Pin);
 
   /* USER CODE END FMAC_IRQn 0 */
   /* USER CODE BEGIN FMAC_IRQn 1 */

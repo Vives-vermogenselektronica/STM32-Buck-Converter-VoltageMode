@@ -32,4 +32,5 @@ buck_voltagemode_hw/stm32g4xx_it.o: ..\Src\stm32g4xx_it.c ..\Inc\main.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_hrtim.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_gpio.h \
   ..\Drivers\STM32G4xx_HAL_Driver\Inc\stm32g4xx_ll_dac.h \
-  ..\Inc\..\..\common\3p3z_controller.h ..\Inc\stm32g4xx_it.h
+  ..\Inc\..\..\common\3p3z_controller.h ..\Inc\stm32g4xx_it.h \
+  ..\Inc\ccm_ram.h

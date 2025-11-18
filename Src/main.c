@@ -74,6 +74,9 @@ int16_t bTransient = 0;
 int32_t Vout;
 int32_t CompareReg;
 
+/* Buffer for ADC result (DMA writes here) */
+volatile uint32_t adc_dma_buffer;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -195,7 +198,7 @@ int main(void)
   MX_FMAC_Init();
   /* USER CODE BEGIN 2 */
 
-     /*## Configure the FMAC peripheral ###########################################*/
+  /*## Configure the FMAC peripheral ###########################################*/
   sFmacConfig.InputBaseAddress  = INPUT_BUFFER_BASE;
   sFmacConfig.InputBufferSize   = INPUT_BUFFER_SIZE;
   sFmacConfig.InputThreshold    = INPUT_THRESHOLD;
@@ -216,7 +219,6 @@ int main(void)
   sFmacConfig.Q                 = COEFF_VECTOR_A_SIZE;
   sFmacConfig.R                 = post_shift;
 
-  
   if (HAL_FMAC_FilterConfig(&hfmac, &sFmacConfig) != HAL_OK)
   {
     /* Configuration Error */
@@ -230,8 +232,9 @@ int main(void)
     /* Configuration Error */
     Error_Handler();
   }
+
   /* Start calculation of IIR filter */
-   if (HAL_FMAC_FilterStart(&hfmac,&Fmac_output,&ExpectedCalculatedOutputSize) != HAL_OK)
+  if (HAL_FMAC_FilterStart(&hfmac, NULL, 0) != HAL_OK)
   {
     /* Processing Error */
     Error_Handler();
@@ -243,14 +246,14 @@ int main(void)
     /* Configuration Error */
     Error_Handler();
   }
-  
+
 #ifndef RUN_OPEN_LOOP
   /* Start the DMA which is used to move ADC result to the FMAC */
   if (HAL_ADC_Start_DMA(&hadc1, (uint32_t *) &hfmac.Instance->WDATA, 1) != HAL_OK)
   {
     /* Configuration Error */
     Error_Handler();
-  }  
+  }
 #endif
 
   /* Calculate PWM period and update timer register */
