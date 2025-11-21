@@ -12,8 +12,8 @@ build-idx:
       messages:
         info:
           - Buck_VoltageMode_HW.cbuild-pack.yml - file is already up-to-date
-          - Buck_VoltageMode_HW+Buck_VoltageMode_HW.cbuild-run.yml - file generated successfully
-          - Buck_VoltageMode_HW+Buck_VoltageMode_HW.cbuild.yml - file generated successfully
+          - Buck_VoltageMode_HW+Buck_VoltageMode_HW.cbuild-run.yml - file is already up-to-date
+          - Buck_VoltageMode_HW+Buck_VoltageMode_HW.cbuild.yml - file is already up-to-date
       packs-unused:
         - pack: ARM::CMSIS-DSP@1.16.2
         - pack: ARM::CMSIS-NN@4.1.0
